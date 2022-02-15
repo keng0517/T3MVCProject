@@ -1,7 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using T3MVCProject.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//DbContext
+string conn = builder.Configuration.GetConnectionString("conn");
+builder.Services.AddDbContext<T3ShopContext>(options =>
+{
+    options.UseSqlServer(conn);
+});
 
 var app = builder.Build();
 
