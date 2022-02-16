@@ -1,17 +1,29 @@
 using Microsoft.EntityFrameworkCore;
 using T3MVCProject.Models;
+using T3MVCProject.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//DbContext
-string conn = builder.Configuration.GetConnectionString("conn");
-builder.Services.AddDbContext<T3ShopContext>(options =>
+builder.Services.AddSession(opts =>
 {
-    options.UseSqlServer(conn);
+    opts.IdleTimeout = TimeSpan.FromMinutes(30);
 });
+
+string strCon = builder.Configuration.GetConnectionString("conn");
+
+builder.Services.AddDbContext<T3ShopContext>(opts =>
+{
+    opts.UseSqlServer(strCon);
+});
+
+
+//Injecting the service
+builder.Services.AddScoped<IRepo<int, Shopper>, ShopperRepo>();
+builder.Services.AddScoped<IRepo<string, User>, UserRepo>();
+builder.Services.AddScoped<LoginService>();
 
 var app = builder.Build();
 
@@ -23,11 +35,11 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseSession();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=User}/{action=Login}");
 
 app.Run();

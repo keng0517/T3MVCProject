@@ -1,12 +1,12 @@
 ﻿namespace T3MVCProject.Services
 {
-    public interface IRepo<K, T> 
+    public interface IRepo<K, T> : IAdding<K, T>
     {
         ICollection<T> GetAll();
-        T Get(K id);
+        T Get(K username);
 
-        bool Add(T item);
-        bool Remove(K id);
+        
+        bool Remove(K username);
         bool Update(T item);
 
         

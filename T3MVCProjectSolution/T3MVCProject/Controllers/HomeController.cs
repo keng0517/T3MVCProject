@@ -15,6 +15,7 @@ namespace T3MVCProject.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Username = HttpContext.Session.GetString("un");
             return View();
         }
 
