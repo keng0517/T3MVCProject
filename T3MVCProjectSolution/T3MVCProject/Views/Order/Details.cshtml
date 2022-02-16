@@ -1,0 +1,95 @@
+﻿@using T3MVCProject.Models;
+@model dynamic;
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-8 offset-2">
+            <div class="card mb-12">
+                <div class="row g-0">
+                    <div class="col-md-12">
+                        <div class="card-header text-white bg-info">
+                            <p class="card-text">
+                                <h5 class="card-title">
+                                    @Model.Orders.OrderId
+                                </h5>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text"><b>UserId: </b>@Model.Orders.UserId</p>
+                            <p class="card-text"><b>OrderDate Date: </b>@Model.Orders.OrderDate.ToString("dd MMM yy")</p>
+                            <p class="card-text"><b>TotalAmount: </b>@Model.Orders.TotalAmount</p>
+                            <p class="card-text"><b>Status: </b>@Model.Orders.Status</p>
+                            <p class="card-text"><b>DeliveryId: </b>@Model.Orders.DeliveryId</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            OrderItemId
+                                        </th>
+                                        <th>
+                                            OrderId
+                                        </th>
+                                        <th>
+                                            OrderItemId
+                                        </th>
+                                        <th>
+                                            ProductId
+                                        </th>
+                                        <th>
+                                            Quantity
+                                        </th>
+                                        <th>
+                                            Price
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (OrderItem orderItem in Model.OrderItems)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @orderItem.OrderItemId
+                                            </td>
+                                            <td>
+                                                @orderItem.OrderId
+                                            </td>
+                                            <td>
+                                                @orderItem.OrderItemId
+                                            </td>
+                                            <td>
+                                                @orderItem.ProductId
+                                            </td>
+                                            <td>
+                                                @orderItem.Quantity
+                                            </td>
+                                            <td>
+                                                @orderItem.Price
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

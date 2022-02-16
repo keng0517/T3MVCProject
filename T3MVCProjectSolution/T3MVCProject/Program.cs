@@ -12,6 +12,7 @@ builder.Services.AddSession(opts =>
     opts.IdleTimeout = TimeSpan.FromMinutes(30);
 });
 
+
 string strCon = builder.Configuration.GetConnectionString("conn");
 
 builder.Services.AddDbContext<T3ShopContext>(opts =>
@@ -24,6 +25,12 @@ builder.Services.AddDbContext<T3ShopContext>(opts =>
 builder.Services.AddScoped<IRepo<int, Shopper>, ShopperRepo>();
 builder.Services.AddScoped<IRepo<string, User>, UserRepo>();
 builder.Services.AddScoped<LoginService>();
+
+//Inject Order Service
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddTransient<IRepo<int, Order>, OrderRepo>();
+builder.Services.AddTransient<IRepo<int, OrderItem>, OrderItemRepo>();
+
 
 var app = builder.Build();
 
