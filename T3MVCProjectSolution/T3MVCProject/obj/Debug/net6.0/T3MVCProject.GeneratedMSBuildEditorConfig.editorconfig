@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Team3.NetGitHub/T3MVCProject/T3MVCProjectSolution/T3MVCProject/Views/Cart/ViewCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxWaWV3Q2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Team3.NetGitHub/T3MVCProject/T3MVCProjectSolution/T3MVCProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

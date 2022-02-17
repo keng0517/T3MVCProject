@@ -35,7 +35,10 @@ namespace T3MVCProject.Services
 
         public bool Remove(int id)
         {
-            throw new NotImplementedException();
+            ShoppingCartItem shoppingCartItem = Get(id);
+            _context.ShoppingCartItems.Remove(shoppingCartItem);
+            _context.SaveChanges();
+            return true;
         }
 
         public bool Update(ShoppingCartItem item)
@@ -53,9 +56,10 @@ namespace T3MVCProject.Services
             return false;
         }
 
-        public ShoppingCartItem Get(int k)
+        public ShoppingCartItem Get(int id)
         {
-            throw new NotImplementedException();
+            ShoppingCartItem shoppingCartItem = _context.ShoppingCartItems.FirstOrDefault(x => x.ProductId == id);
+            return shoppingCartItem;
         }
 
         public ShoppingCartItem GetById(int id)

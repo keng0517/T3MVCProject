@@ -19,6 +19,5 @@ namespace T3MVCProject.Models
         [ForeignKey("UserId")]
         public int UserId { get; set; }
         public User User { get; set; }
-        public bool isSelected { get; set; }
     }
 }

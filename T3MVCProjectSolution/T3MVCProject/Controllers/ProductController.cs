@@ -108,7 +108,7 @@ namespace T3MVCProject.Controllers
                     newItem.Qty = qty;
                     newItem.Amount = price * qty;
                     newItem.UserId = userId;
-                    newItem.isSelected = false;
+                    
                     _cartRepo.Add(newItem);
                 }
             }
