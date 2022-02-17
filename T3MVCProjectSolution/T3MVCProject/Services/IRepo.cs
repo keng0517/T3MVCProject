@@ -6,7 +6,7 @@
 
         T Get(K username); //Raindy
 
-        T Get(K id);
+        //T Get(K id);  //duplicate
 
         T GetById(K id); // Halim
 

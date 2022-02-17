@@ -26,6 +26,7 @@ builder.Services.AddScoped<IRepo<int, Shopper>, ShopperRepo>();
 builder.Services.AddScoped<IRepo<string, User>, UserRepo>();
 builder.Services.AddScoped<LoginService>();
 builder.Services.AddScoped<IRepo<int, Product>, ProductRepo>();
+builder.Services.AddScoped<IRepo<int, ShoppingCartItem>, CartRepo>();
 
 //Inject Order Service
 builder.Services.AddScoped<IOrderService, OrderService>();
