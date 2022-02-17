@@ -15,6 +15,7 @@ namespace T3MVCProject.Models
         public DbSet<Admin> Admins { get; set; }
 
         public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{

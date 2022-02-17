@@ -25,6 +25,7 @@ builder.Services.AddDbContext<T3ShopContext>(opts =>
 builder.Services.AddScoped<IRepo<int, Shopper>, ShopperRepo>();
 builder.Services.AddScoped<IRepo<string, User>, UserRepo>();
 builder.Services.AddScoped<LoginService>();
+builder.Services.AddScoped<IRepo<int, Product>, ProductRepo>();
 
 //Inject Order Service
 builder.Services.AddScoped<IOrderService, OrderService>();

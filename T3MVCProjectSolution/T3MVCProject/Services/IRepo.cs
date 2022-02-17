@@ -12,7 +12,8 @@
 
         bool Remove(K username);
         bool Update(T item);
-
+		ICollection<T> GetSpecific(K k); //lp
+        T Add(T item); //lp
         
     }
 }

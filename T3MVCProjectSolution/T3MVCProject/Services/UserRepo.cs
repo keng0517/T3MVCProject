@@ -64,9 +64,15 @@ namespace T3MVCProject.Services
             throw new NotImplementedException();
         }
 
+        public User GetById(string id)
+        {
+            throw new NotImplementedException();
+        }
 
-
-
+        public ICollection<User> GetSpecific(string k)
+        {
+            throw new NotImplementedException();
+        }
 
         public bool Remove(string username)
         {

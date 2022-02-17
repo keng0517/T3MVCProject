@@ -264,3 +264,14 @@ C:\Users\ASUS\Desktop\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\n
 C:\Users\ASUS\Desktop\T3MVCProject\T3MVCProjectSolution\T3MVCProject\bin\Debug\net6.0\EntityFramework.SqlServer.dll
 C:\Users\ASUS\Desktop\T3MVCProject\T3MVCProjectSolution\T3MVCProject\bin\Debug\net6.0\EntityFramework.dll
 C:\Users\ASUS\Desktop\T3MVCProject\T3MVCProjectSolution\T3MVCProject\bin\Debug\net6.0\System.Web.Providers.dll
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\T3MVCProject.csproj.AssemblyReference.cache
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\T3MVCProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\T3MVCProject.AssemblyInfoInputs.cache
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\T3MVCProject.AssemblyInfo.cs
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\T3MVCProject.csproj.CoreCompileInputs.cache
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\T3MVCProject.MvcApplicationPartsAssemblyInfo.cache
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\T3MVCProject.RazorAssemblyInfo.cache
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\T3MVCProject.RazorAssemblyInfo.cs
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\T3MVCProject.dll
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\ref\T3MVCProject.dll
+D:\Team3.NetGitHub\T3MVCProject\T3MVCProjectSolution\T3MVCProject\obj\Debug\net6.0\T3MVCProject.pdb

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace T3PersonalWkSpcApp.Models
+namespace T3MVCProject.Models
 {
     public class ShoppingCartItem
     {

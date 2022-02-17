@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\T3MVCProject\\T3MVCProjectSolution\\T3MVCProject\\T3MVCProject.csproj": {}
+    "D:\\Team3.NetGitHub\\T3MVCProject\\T3MVCProjectSolution\\T3MVCProject\\T3MVCProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\T3MVCProject\\T3MVCProjectSolution\\T3MVCProject\\T3MVCProject.csproj": {
+    "D:\\Team3.NetGitHub\\T3MVCProject\\T3MVCProjectSolution\\T3MVCProject\\T3MVCProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\T3MVCProject\\T3MVCProjectSolution\\T3MVCProject\\T3MVCProject.csproj",
+        "projectUniqueName": "D:\\Team3.NetGitHub\\T3MVCProject\\T3MVCProjectSolution\\T3MVCProject\\T3MVCProject.csproj",
         "projectName": "T3MVCProject",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\T3MVCProject\\T3MVCProjectSolution\\T3MVCProject\\T3MVCProject.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\T3MVCProject\\T3MVCProjectSolution\\T3MVCProject\\obj\\",
+        "projectPath": "D:\\Team3.NetGitHub\\T3MVCProject\\T3MVCProjectSolution\\T3MVCProject\\T3MVCProject.csproj",
+        "packagesPath": "C:\\Users\\lpsam\\.nuget\\packages\\",
+        "outputPath": "D:\\Team3.NetGitHub\\T3MVCProject\\T3MVCProjectSolution\\T3MVCProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lpsam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -82,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -31,6 +31,16 @@ namespace T3MVCProject.Services
             throw new NotImplementedException();
         }
 
+        public Shopper GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ICollection<Shopper> GetSpecific(int k)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Remove(int username)
         {
             throw new NotImplementedException();

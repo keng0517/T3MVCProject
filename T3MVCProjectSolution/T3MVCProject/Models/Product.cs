@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace T3PersonalWkSpcApp.Models
+namespace T3MVCProject.Models
 {
     public class Product
     {

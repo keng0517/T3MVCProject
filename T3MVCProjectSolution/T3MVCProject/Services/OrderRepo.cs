@@ -63,5 +63,19 @@ namespace T3MVCProject.Services
 
         }
 
+        public ICollection<Order> GetSpecific(int k)
+        {
+            throw new NotImplementedException();
+        }
+
+        Order IRepo<int, Order>.Add(Order item)
+        {
+            throw new NotImplementedException();
+        }
+
+        Order IAdding<int, Order>.Add(Order item)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
